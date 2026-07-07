@@ -8,15 +8,20 @@ My hands-on journey toward the **Certified Kubernetes Administrator (CKA)** cert
 
 # About
 
-This repo is my personal learning log for the CKA exam, structured day-by-day (Docker fundamentals → Kubernetes core concepts → security → networking → troubleshooting → mock exam prep). While I'm following the daily curriculum and topic order from Piyush Sachdeva's CKA-2024 YouTube series, all notes, commands, and lab exercises here are written and executed by me in my own environment.
+- This repo is my personal learning log for the CKA exam, structured day-by-day (Docker fundamentals → Kubernetes core concepts → security → networking → troubleshooting → mock exam prep). 
 
-I'm also applying these concepts directly to [**KubeInsight AI**](#) — an AI-powered Kubernetes troubleshooting platform I'm building — so this repo doubles as certification prep and real-world reinforcement.
+- While I'm following the daily curriculum and topic order from Piyush Sachdeva's CKA-2024 YouTube series, all notes, commands, and lab exercises here are written and executed by me in my own environment.
 
-**Credit:** Course structure and daily topics based on [piyushsachdeva/CKA-2024](https://github.com/piyushsachdeva/CKA-2024). If you're following the same challenge, that repo (and the accompanying [YouTube series](https://youtube.com/@techtutorialswithpiyush)) is the original source — go star it. ⭐
+
+# Credit 
+
+- Course structure and daily topics based on [piyushsachdeva/CKA-2024](https://github.com/piyushsachdeva/CKA-2024). 
+
+- If you're following the same challenge, that repo (and the accompanying [YouTube series](https://youtube.com/@techtutorialswithpiyush)) is the original source — go star it. 
 
 ---
 
-## My Environment
+# My Environment
 
 Unlike the original course (which uses Kind), I'm practicing on:
 
