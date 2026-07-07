@@ -2,7 +2,9 @@
 
 **Status: In Progress** — Day 1 of 40
 
-My hands-on journey toward the **Certified Kubernetes Administrator (CKA)** certification, following the **#40DaysOfKubernetes** challenge structure by [Piyush Sachdeva](https://github.com/piyushsachdeva/CKA-2024). This repo documents my own notes, labs, and troubleshooting experience as I work through each day — built and verified on my own multi-cluster Minikube setup.
+- My hands-on journey toward the **Certified Kubernetes Administrator (CKA)** certification, following the **#40DaysOfKubernetes** challenge structure by **Piyush Sachdeva.**(https://github.com/piyushsachdeva/CKA-2024) 
+
+- This repo documents my own notes, labs, and troubleshooting experience as I work through each day — built and verified on my own multi-cluster Minikube setup.
 
 ---
 
@@ -26,7 +28,9 @@ My hands-on journey toward the **Certified Kubernetes Administrator (CKA)** cert
 Unlike the original course (which uses Kind), I'm practicing on:
 
 - **Cluster:** Minikube — 3-context multi-cluster setup on WSL2
+  
 - **Practice Platforms:** [Killer.sh](https://killer.sh) (official simulator) & [KillerCoda](https://killercoda.com)
+  
 - **Tools:** kubectl, etcdctl, containerd, Helm
 
 ---
@@ -48,9 +52,14 @@ cka-certification-prep/
 ```
 
 Each `DayXX` folder contains:
-- `notes.md` — concepts explained in my own words
-- `commands.md` / `manifests/` — YAML and CLI commands I ran
-- `troubleshooting.md` — issues I hit and how I debugged them
+
+- notes.md — concepts explained in my own words
+  
+- commands.md or manifests/ — YAML and CLI commands I ran
+  
+- troubleshooting.md — issues I hit and how I debugged them
+
+- demo.md - # Hands-on Exercises
 
 ---
 
