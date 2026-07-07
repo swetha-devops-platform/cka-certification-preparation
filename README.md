@@ -2,7 +2,7 @@
 
 **Status: In Progress** — Day 1 of 40
 
-- My hands-on journey toward the **Certified Kubernetes Administrator (CKA)** certification, following the **#40DaysOfKubernetes** challenge structure by **Piyush Sachdeva.**(https://github.com/piyushsachdeva/CKA-2024) 
+- My hands-on journey toward the **Certified Kubernetes Administrator (CKA)** certification, following the **#40DaysOfKubernetes** challenge structure by **Piyush Sachdeva.**
 
 - This repo documents my own notes, labs, and troubleshooting experience as I work through each day — built and verified on my own multi-cluster Minikube setup.
 
