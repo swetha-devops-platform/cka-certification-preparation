@@ -1,3 +1,41 @@
+# Why Do We Need Kubernetes?
+
+When running containers **without an orchestration platform**, we must manually handle several operational challenges, including:
+
+* Container networking
+* Resource management (CPU & Memory)
+* Security and access control
+* High availability
+* Fault tolerance
+* Service discovery
+* Scaling applications
+* Load balancing
+* Rolling updates and rollbacks
+* Self-healing (restarting failed containers)
+
+**Kubernetes (K8s)** automates these tasks by providing a powerful container orchestration platform. It manages container deployment, scaling, networking, load balancing, service discovery, self-healing, and high availability, allowing applications to run reliably in production environments.
+
+---
+
+# Is Kubernetes Always Required?
+
+**No.** Kubernetes is **not always the right solution**.
+
+For small applications with only **one or two containers**, using Docker or Docker Compose is usually sufficient. Kubernetes introduces additional complexity and operational overhead that may not be justified for simple deployments.
+
+Kubernetes becomes valuable when your application grows and requires:
+
+* Running multiple containers across multiple machines
+* Automatic scaling based on demand
+* High availability
+* Self-healing of failed containers
+* Zero-downtime deployments
+* Load balancing and service discovery
+* Efficient resource utilization
+* Automated orchestration in production environments
+
+---
+
 # Problems with Docker (Why Kubernetes?)
 
 
