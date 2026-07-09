@@ -25,7 +25,3 @@
 23. **API Server** – Central control plane component that handles all API communication.
 24. **Controller Manager** – Runs background controllers that enforce cluster desired state.
 25. **Scheduler** – Assigns pods to available nodes based on resource requirements and constraints.
-
-*(Note: item 25 "Scheduler" appeared twice in the original post — duplicate removed here.)*
-
-Want me to turn this into a GitHub notes file too, since it'd pair well with your Day 07/08 pod notes as a quick-reference glossary?
