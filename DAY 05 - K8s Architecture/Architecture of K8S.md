@@ -226,6 +226,7 @@ This separation is why Kubernetes is so resilient — even if the control plane 
 
 ---
 
-<img width="1980" height="3480" alt="k8s_pod_creation_workflow" src="https://github.com/user-attachments/assets/a6cc8f3e-f9e7-4093-9092-9e56c74204c6" />
+<img width="1980" height="2640" alt="image" src="https://github.com/user-attachments/assets/ef0f7344-1b17-4a81-b904-4b93dabc87c6" />
+
 
 ---
