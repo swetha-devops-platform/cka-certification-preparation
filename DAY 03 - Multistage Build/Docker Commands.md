@@ -11,7 +11,7 @@
 | List all containers (Running + Stopped)  | `docker ps -a`                                                   |
 | Access the running container             | `docker exec -it <container-name> sh`                            |
 | View container logs                      | `docker logs <container-name>`                                   |
-| Inspect container details                | `docker inspect <container-name>`                                |
+| Inspect container details or Config details              | `docker inspect <container-name>`                                |
 | Stop a running container                 | `docker stop <container-name>`                                   |
 | Start a stopped container                | `docker start <container-name>`                                  |
 | Restart a container                      | `docker restart <container-name>`                                |
