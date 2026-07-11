@@ -145,6 +145,3 @@ kubectl get nodes -o wide                   # list nodes with more detail
 
 - In production I always use `apply`, not `create`, because apply is idempotent and that's what makes GitOps workflows possible.
 
-
-
-*Part of [cka-certification-prep](https://github.com/swetha-devops-platform) — CKA prep notes following #40DaysOfKubernetes.*
