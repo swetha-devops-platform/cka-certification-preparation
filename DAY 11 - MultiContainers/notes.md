@@ -1,6 +1,6 @@
 # Init Containers and Sidecar Containers
 
-**Interview summary line:** *"Init containers run once, sequentially, before the app starts — they're for setup and gating. Sidecar containers run alongside the main container for the pod's whole life — they're for ongoing support like logging, proxying, or syncing data."*
+**Interview summary line:** "Init containers run once, sequentially, before the app starts — they're for setup and gating. Sidecar containers run alongside the main container for the pod's whole life — they're for ongoing support like logging, proxying, or syncing data."
 
 ---
 
@@ -99,5 +99,3 @@ spec:
 ---
 
 
-
-*Part of #40DaysOfKubernetes CKA prep — practiced on 3-context Minikube (WSL2).*
