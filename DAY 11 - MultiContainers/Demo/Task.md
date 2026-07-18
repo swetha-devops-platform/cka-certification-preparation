@@ -12,8 +12,17 @@ Step 2: Create an deployment.yaml file
 
 ---
 
+Kubectl create deploy ngnix --image ngnix --port 80 
+
+---
 
 
 Step 3: Create an Services to expose the app by using below command
+
+---
+
+kubectl expose deploy ngnix deploy --name my service --port 80 
+
+---
 
 Step 4: Apply the changes 
