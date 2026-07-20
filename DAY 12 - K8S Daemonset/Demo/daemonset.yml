@@ -1,0 +1,18 @@
+```yaml
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: ds-ex
+spec:
+  template:
+    metadata:
+      labels:
+        env: demo
+    spec:
+      containers:
+      - name: ds-ex
+        image: redis
+      selector:
+         matchLabels:
+           env: demo 
+```
