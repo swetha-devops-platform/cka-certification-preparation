@@ -12,7 +12,7 @@ spec:
       containers:
       - name: ds-ex
         image: redis
-      selector:
+   selector:
          matchLabels:
            env: demo 
 ```
