@@ -133,3 +133,7 @@ Security: Source exposed        Security: Source stays in builder
 ```
 
 ---
+
+Difference Between RUN, CMD, ENTRYPOINT ? 
+
+RUN, CMD, and ENTRYPOINT serve different purposes in a Dockerfile. RUN executes commands during the image build process and is used to install software or configure the image. CMD specifies the default command that runs when the container starts, and it can be overridden at runtime. ENTRYPOINT defines the main executable for the container and is generally not overridden; instead, CMD is often used to provide default arguments to the ENTRYPOINT.
