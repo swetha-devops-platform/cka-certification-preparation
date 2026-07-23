@@ -183,3 +183,7 @@ A Docker image is a read-only template that contains the application code, runti
 
 A Docker container is a running instance of a Docker image. When a container is started, Docker adds a thin writable layer on top of the read-only image so the application can execute and make changes without modifying the original image. Multiple containers can be created from the same Docker image.
 
+# Writeable Container Layer 
+
+A Docker image is read-only, so it cannot be modified. When we create a container using docker run, Docker adds a thin writable layer on top of the image. Any runtime changes, such as writing logs, creating files, or modifying data, are stored in this writable container layer, while the original image remains unchanged. If the container is deleted, the writable layer is also removed unless the data is stored in a Docker volume.
+
