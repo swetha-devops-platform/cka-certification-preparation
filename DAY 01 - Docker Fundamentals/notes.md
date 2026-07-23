@@ -164,7 +164,11 @@ In modern production environments, we often run containers inside virtual machin
 
 - **Images** — Read-only templates (like `ubuntu`, `redis`, `nginx`) that contain everything needed to run an app. Think of an image as a blueprint — you can't run it directly, but you can create containers from it.
 
-- **Containers** — Running instances created from images (each with its own ID, like `a1b2c3d4e5f6`). This is where "run" happens — the daemon takes an image and spins up a live, running container from it.
+- **Containers** — Running instances created from images A container is a lightweight, isolated runtime environment that packages an application along with all its dependencies, libraries, configuration files, and runtime. This allows the application to run consistently across different environments, such as a developer's laptop, a testing server, or production.
+
+Unlike a virtual machine, a container does not include its own operating system. Instead, it shares the host operating system's kernel, making it much smaller, faster to start, and more resource-efficient.
+
+Docker is the most commonly used container platform for creating, running, and managing containers.
 
 - **Docker Registry** — A remote storage location for images (Docker Hub is the public one; companies also run **Private Registries**). You **pull** images down from here to run locally, and **push** images up here to share or deploy them elsewhere.
 
