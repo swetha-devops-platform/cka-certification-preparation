@@ -175,3 +175,11 @@ Docker is the most commonly used container platform for creating, running, and m
 **The flow in one line:** You type a command (Client) → the Daemon on the Host executes it → it either pulls an Image from the Registry or runs a Container from an existing Image → and you can push new images back to the Registry to share them.
 
 
+---
+
+# Difference Between Docker Image & Containers 
+
+A Docker image is a read-only template that contains the application code, runtime, libraries, dependencies, configuration files, and metadata required to run an application. It serves as the blueprint for creating containers.
+
+A Docker container is a running instance of a Docker image. When a container is started, Docker adds a thin writable layer on top of the read-only image so the application can execute and make changes without modifying the original image. Multiple containers can be created from the same Docker image.
+
