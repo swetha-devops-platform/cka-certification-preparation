@@ -86,6 +86,12 @@ Shows the *entire* nested field tree at once — useful once you already know ro
 
 ---
 
+## Difference Between Them : 
+
+- kubectl explain pod displays the documentation for the Pod resource. It helps me understand the available fields, their descriptions, and the API version to use when writing a YAML manifest. 
+
+- If I want to see the complete hierarchy of all nested fields, I use kubectl explain pod --recursive, which displays the entire field tree. This is very useful when creating or troubleshooting Kubernetes YAML files.
+
 ## Working with the pod YAML file
 
 ```bash
@@ -151,4 +157,5 @@ kubectl get nodes -o wide                   # list nodes with more detail
 - I can hand-write it or scaffold it fast using `kubectl run ... --dry-run=client -o yaml`, which gives me a valid template without actually touching the cluster.
 
 - In production I always use `apply`, not `create`, because apply is idempotent and that's what makes GitOps workflows possible.
+
 
