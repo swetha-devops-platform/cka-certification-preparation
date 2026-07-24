@@ -7,9 +7,16 @@
   Kubernetes objects.
 - YAML supports different data types: strings, integers, lists, and
   dictionaries (maps).
-- **YAML is indentation-sensitive.** Use spaces only, never tabs — 2 spaces
-  per level is the convention. Wrong indentation is the #1 cause of YAML
-  errors in Kubernetes.
+  
+- YAML is indentation-sensitive because indentation defines the hierarchy and relationship between fields.
+
+- Kubernetes uses this structure to understand the resource configuration. 
+
+- If the indentation is incorrect, Kubernetes cannot parse the YAML correctly, resulting in a syntax or validation error, and the resource will not be created. 
+
+- Therefore, we should always use spaces (typically two spaces per level) and never tabs.
+
+
 
 ### Dictionaries (key-value pairs)
 
