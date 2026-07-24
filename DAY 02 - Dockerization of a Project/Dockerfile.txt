@@ -18,3 +18,10 @@ EXPOSE 8000
 
 # Step 7 - Run the Application
 CMD ["python", "myapp.py"]
+
+
+---
+
+We copy requirements.txt first to take advantage of Docker's layer caching. If only the application code changes but the dependencies remain the same, Docker reuses the cached dependency installation layer instead of reinstalling all packages, which significantly speeds up image builds.
+
+---
