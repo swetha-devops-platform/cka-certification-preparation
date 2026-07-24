@@ -53,6 +53,10 @@
 
 ---
 
+The main difference is that a Virtual Machine virtualizes hardware, while Docker virtualizes the operating system. A Virtual Machine includes a Guest Operating System for every VM, making it heavier, slower, and more resource-intensive. Docker Containers share the Host Operating System's kernel, so they don't require a separate Guest OS. This makes containers lightweight, faster to start, and more efficient. Virtual Machines are preferred when different operating systems are required, whereas Docker Containers are widely used for microservices and cloud-native applications.
+
+---
+
 | Feature          | Container                                      | Virtual Machine                       |
 | ---------------- | ---------------------------------------------- | ------------------------------------- |
 | **Architecture** | Shares the host OS kernel                      | Has its own guest OS and kernel       |
@@ -111,13 +115,18 @@ In modern production environments, we often run containers inside virtual machin
 
 # Docker 
 
-- Docker is an open-source containerization platform that allows you to package an application along with all its dependencies — code, runtime, libraries, and configuration — into a single portable unit called a **container.**
+- Docker is an open-source containerization platform that allows developers to package an application along with all its dependencies, libraries, binaries, and runtime into a Docker Image.
 
-- Isolated Environment that Contains Libraries, Application, runtime and Dependices
+- When this image is executed, it creates a Docker Container, which is a lightweight, isolated environment that shares the host OS kernel
 
-- Lightweight Sandbox Environment
-
+- Docker ensures consistent application behaviour across development, testing, and production environments while being faster and more resource-efficient than virtual machines.
 ---
+
+# Why Docker 
+
+We use Docker to eliminate the "works on my machine" problem by packaging the application and its dependencies together. 
+
+It provides portability, consistency across environments, faster deployment, efficient resource utilization, scalability, and simplified application deployment.
 
 # Simple Docker Flow : 
 
