@@ -90,12 +90,13 @@ This separation is why Kubernetes is so resilient — even if the control plane 
 
   - The **core component** of Kubernetes
 
-  - Responsible for **all incoming requests** and enforcing communication standards
+  - It receives all requests (from users, kubectl, controllers, the Scheduler, the Kubelet, or other components), validates them, and updates the cluster state in etcd.
 
   - K8s and external tools interact with the cluster **only through the API Server**
 
-  - It will **decide the pod lifecycle** — where to create the pod and on which node
+  - The API Server is the central management component that exposes the Kubernetes API and acts as the communication hub for all Kubernetes components.
 
+  - 
   - It is the **heart of Kubernetes** and handles requests from external sources too
 
 ---
