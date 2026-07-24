@@ -61,7 +61,7 @@ spec:
 
 | Field | Purpose |
 |---|---|
-| `apiVersion` | Which version of the Kubernetes API to use for this object |
+| `apiVersion` | specifies which version of the Kubernetes API should be used to create and manage the object. |
 | `kind` | The type of object — Pod, Deployment, Service, etc. |
 | `metadata` | Data that identifies the object — name, labels, annotations |
 | `spec` | The desired state — for a pod, this is the containers it should run |
