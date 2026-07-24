@@ -188,9 +188,7 @@ Docker is the most commonly used container platform for creating, running, and m
 
 # Difference Between Docker Image & Containers 
 
-A Docker image is a read-only template that contains the application code, runtime, libraries, dependencies, configuration files, and metadata required to run an application. It serves as the blueprint for creating containers.
-
-A Docker container is a running instance of a Docker image. When a container is started, Docker adds a thin writable layer on top of the read-only image so the application can execute and make changes without modifying the original image. Multiple containers can be created from the same Docker image.
+The main difference between a Docker Image and a Docker Container is that a Docker Image is a read-only template that contains an application along with its dependencies, libraries, binaries, configuration files, and runtime. It serves as the blueprint for creating containers. A Docker Container, on the other hand, is a running instance of a Docker Image. It is a lightweight, isolated runtime environment that shares the Host Operating System's kernel. Since containers do not require a separate Guest Operating System, they start quickly, consume fewer resources, and provide consistent application behavior across different environments.
 
 # Writeable Container Layer 
 
